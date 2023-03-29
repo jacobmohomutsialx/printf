@@ -37,4 +37,5 @@ char *chartos(char c);
 char *nothing_found(char c);
 void _puts(char *buffer, int size);
 char *rev_string(char *a, int n);
+char *(*get_spec_func(char s))(va_list);
 #endif
