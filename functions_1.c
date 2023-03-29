@@ -1,7 +1,7 @@
 #include <stdarg.h>
 #include <stdlib.h>
 #include <stdio.h>
-
+#include "main.h"
 /**
  * rot13_find - encodes a string using rot13
  * @s: string to encode
