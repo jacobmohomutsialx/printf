@@ -1,6 +1,6 @@
-i#include <stddef.h>
+#include <stddef.h>
 #include <stdio.h>
-
+#include "main.h"
 
 /**
  * _printf - function that prints output
