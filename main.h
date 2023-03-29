@@ -17,5 +17,9 @@ char *unsigned_find(va_list unsign);
 char *hex_find(va_list n);
 char *HEX_find(va_list n);
 char *address_find(va_list n);
-
+int _strlen(char *s);
+char *chartos(char c);
+char *nothing_found(char c);
+void _puts(char *buffer, int size);
+char *rev_string(char *a, int n);
 #endif
