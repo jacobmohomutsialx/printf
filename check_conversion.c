@@ -1,4 +1,5 @@
 #include <stddef.h>
+#include "main.h"
 
 /**
  * get_spec_func - check specifier type and return function
