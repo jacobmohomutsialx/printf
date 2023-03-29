@@ -14,4 +14,8 @@ char *string_find(va_list s);
 char *percent_find(void);
 char *int_find(va_list npoint);
 char *unsigned_find(va_list unsign);
+char *hex_find(va_list n);
+char *HEX_find(va_list n);
+char *address_find(va_list n);
+
 #endif
