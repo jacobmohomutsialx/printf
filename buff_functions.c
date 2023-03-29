@@ -1,6 +1,7 @@
 #include <unistd.h>
 #include <stddef.h>
 #include <stdlib.h>
+#include "main.h"
 
 /**
  * _memcpy - copies memory area
