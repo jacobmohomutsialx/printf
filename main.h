@@ -1,6 +1,21 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#define BUFSIZE 1024
+#include <stdarg.h>
+
+/**
+ * struct spec_types - Struct to get function of specifier
+ * @spec: specifier
+ * @f: The function associated
+ */
+typedef struct spec_types
+{
+	char *spec;
+	char *(*f)();
+} s_types;
+
+
 char *_memcpy(char *dest, char *src, unsigned int n, unsigned int bufferlen);
 int alloc_buffer(char *hold, int hlen, char *buffer, int size, double *total);
 char *(*get_spec_func(char s))(va_list);
