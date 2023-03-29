@@ -9,4 +9,9 @@ char *rev_find(va_list s);
 char *binary_find(va_list n);
 char *octal_find(va_list n);
 int _printf(const char *format, ...);
+char *char_find(va_list c);
+char *string_find(va_list s);
+char *percent_find(void);
+char *int_find(va_list npoint);
+char *unsigned_find(va_list unsign);
 #endif
